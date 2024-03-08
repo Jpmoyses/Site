@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Loja</title>	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/geral.css">
+	</head>
+
+    <body data-bs-spy="scroll" data-bs-target="#menu">
+
+        <header class="py-3 mb-4 border-bottom">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Thirteenth navbar example">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+                        <a class="navbar-brand col-lg-3 me-0 pad" href="#">
+                            <img src="img/logo-white-bg.png" alt="Logo" style="width:55%;">
+                        </a>
+                        <ul class="navbar-nav col-lg-10 justify-content-lg-center">
+                            <li class="nav-item">
+                                <a class="nav-link active underline" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Ofertas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Novos Produtos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Suporte</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Atendimento ao Cliente</a></li>
+                                    <li><a class="dropdown-item" href="#">Outros serviços</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="text-end pad">
+                        <a href="pages/comprar.html"><img src="img/carrinho.png" alt="Carrinho de Compras" style="width:7%;"></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div id="stickyMenu">
+                <nav id="menu" class="navbar float-start">
+                    <div class="list-group">
+                        <a href="#aboutUs" class="list-group-item list-group-item-action" aria-current="true">Quem Somos</a>
+                        <a href="#itens" class="list-group-item list-group-item-action">Produtos</a>
+                        <a href="pages/comprar.html" class="list-group-item list-group-item-action">Comprar</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div id="sobre">
+                <div class="container">
+                    <div id="carrosel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/car1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/car2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/car3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrosel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrosel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Proxima</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="img/logo-color.png" alt="Logo" >
+                        </div>
+                        <div class="col-md-6"> 
+                            <h2 class="about" id="aboutUs">Quem Somos?</h2>
+                            <p class="just">LavaTudo, fundada em 1982, é uma loja focada em venda de produtos e acessórios de limpeza, como alvejantes, sabão em pó, sabonetes, lixeiras etc. LavaTudo foi inicialmente fundada com o intuito de ajudar ao máximo os clientes, tendo os melhores preços do mercado, um atendimento ao cliente sensacional e ofertas semanais imperdíveis, tudo isso podendo ser acessado de uma forma fácil e rápida online, garantindo uma casa limpa e cheirosa com os menores preços possíveis. Confira alguns de nossos produtos logo abaixo!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12"> 
+                                <h2 class="about" id="itens">Produtos e Acessórios</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/sab.jpg" class="card-img-top" alt="Palestra 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Kit Saboneteira</h5>
+                                            <p class="card-text">Saboneteira para banheiro por R$35,00</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/alv.jpg" class="card-img-top" alt="Palestra 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Alvejante Vanish</h5>
+                                        <p class="card-text">Alvejante para roupa, por R$19,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/sab3.jpg" class="card-img-top" alt="Palestra 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Saboneteira</h5>
+                                        <p class="card-text">Saboneteira simples para banheiro, por R$12,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/lix.jpg" class="card-img-top" alt="Palestra 1">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Lixeira</h5>
+                                            <p class="card-text">Lixeira para cozinha por R$24,00</p>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/rack.jpg" class="card-img-top" alt="Palestra 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Escorredor de Louça</h5>
+                                        <p class="card-text">Escorredor de louça por R$19,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="img/omo.jpg" class="card-img-top" alt="Palestra 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Sabão em Pó</h5>
+                                        <p class="card-text">Sabão em pó OMO por R$9,00</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <footer class="bd-footer py-4 py-md-5 mt-5 red">       
+            <div class="container py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a class="nav-link px-2 text-body-secondary">Endereço: Av. Roraima nº 1000, Bairro Camobi, Santa Maria</a></li>
+                    <li class="nav-item"><a class="nav-link px-2 text-body-secondary">Telefone: +55 (55) 3220-8000</a></li>
+                    <li class="nav-item"><a class="nav-link px-2 text-body-secondary">CEP: 97105-900</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">© 2023 LavaTudo, Inc</p>
+                <img src="img/logo-white-bg.png" alt="Logo" style="width:15%;" class="mx-auto d-block">
+            </div>
+        </footer>
+       
+        <script src="js/trabalho.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    </body>
+</html>

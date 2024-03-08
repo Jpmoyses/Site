@@ -1,0 +1,147 @@
+.pad{
+    padding: 0px;
+    margin: 0px;
+}
+
+.py-3 {
+    background-color: #ED2647;
+}
+
+
+.bg-body-tertiary{
+--bs-bg-opacity: 1;
+background-color: #ED2647!important;
+}
+
+.dropdown-menu{
+--bs-dropdown-link-active-bg: #ED2647;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link{
+    color: #FFFFFF;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+.about{
+    background-color: #ED2647;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.just{
+    text-align: justify;
+    font-size: 30px;
+}
+
+.col-md-4{
+    padding: 11px;
+}
+
+.text-body-secondary{
+    --bs-secondary-color:#FFFFFF;
+}
+
+.red{
+    background-color: #ED2647;
+}
+
+#menu{
+position: fixed;
+top: 400px;
+z-index: 200;
+font-size: 1.125em;
+color:#ED2647;
+}
+
+.list-group{
+    padding-top: 5px;
+}
+
+.list-group{
+    --bs-list-group-active-bg: #ED2647;
+    --bs-list-group-active-border-color: #ED2647;
+    color: #FFFFFF;
+}
+
+.pad{
+    padding-right: 7px;
+}
+
+fieldset{
+	margin: 0;
+	border: 3px solid #ED2647; 
+	padding: 10px;
+}
+
+legend{
+    color: #000000;
+}
+
+label{
+	color: #000000;
+	font-size:14px;
+	margin-bottom: 2px;
+	width: 70px;
+	display: inline-block;
+    margin: 10px;
+    width: 90px;
+}
+
+input{
+	border: 1px solid #ccc;
+	padding: 10px;
+    width: 1100px;
+}
+
+.btn-primary {
+    --bs-btn-bg: #ED2647;
+    --bs-btn-border-color: #ED2647;
+    --bs-btn-hover-bg: #ED2647;
+    --bs-btn-active-bg: #b81d37;
+    --bs-btn-active-border-color: #b81d37;
+    --bs-btn-hover-border-color: #b81d37;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    color: #000000;
+}
+
+.formulario{
+    text-align: center;
+}
+
+@media all and (max-width: 1400px){
+input{
+	border: 1px solid #ccc;
+	padding: 10px;
+    width: 920px;
+}
+}
+
+@media all and (max-width: 1200px){
+    input{
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 750px;
+    }
+    .just{
+        font-size: 20.5px;
+    }
+}
+
+@media all and (max-width: 991px){
+    input{
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: auto;
+    }
+    .just{
+        font-size: 17px;
+    }
+}
